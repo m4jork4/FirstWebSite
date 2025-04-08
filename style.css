@@ -1,0 +1,74 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: darkgray;
+    color: black;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 60%;
+}
+
+.right {
+    width: 35%;
+}
+
+h1 {
+    color: #0066cc;
+    text-align: left;
+    text-shadow: 1px 1px;
+}
+
+ul li {
+    color: #444;
+    font-size: 1.1em;
+    margin-bottom: 5px;
+}
+
+img {
+    max-width: 200px;
+    border-radius: 10px;
+}
+
+a {
+    color: #0066cc;
+    text-decoration: none;
+    text-shadow: 1px 1px;
+}
+
+a:hover {
+    color: #003366;
+    text-decoration: underline;
+}
+
+/* Film szekció stílus */
+.filmszekcio {
+    margin-top: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: left;
+}
+
+th {
+    background-color: #0066cc;
+    color: white;
+}
+
+tr:nth-child(even) {
+    background-color: #e6f2ff;
+}
